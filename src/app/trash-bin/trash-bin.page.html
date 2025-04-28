@@ -1,0 +1,58 @@
+<ion-menu contentId="main-content">
+
+  <ion-header>
+
+    <ion-toolbar>
+      <ion-title><h1>
+        <b class="coolvetica">Painting </b> 
+         <b class="Comfortaa-Light">Gizmo </b> 
+       <b>
+        αlfa 
+       </b>  
+       </h1></ion-title>
+    </ion-toolbar>
+
+  </ion-header>
+  <ion-content class="ion-padding backgroundMenu">
+
+  <ion-grid>
+    <ion-row>
+      <ion-item href="../home" class="item-menu Comfortaa-Light " lines="none">
+        <ion-icon name="easel" slot="start"></ion-icon>
+        Minhas Obras-Primas
+        
+      </ion-item>
+    </ion-row>
+
+    <ion-row>
+      <ion-item class="item-menu item-selected" lines="none">
+        <ion-icon name="trash" slot="start"></ion-icon>
+       <b>Lixeira</b>
+      </ion-item>
+    </ion-row>
+    
+    <ion-row>
+      <ion-item href="../about-us" class="item-menu Comfortaa-Light" lines="none">
+        <ion-icon name="heart" slot="start"></ion-icon>
+         Sobre nós 
+      </ion-item>      
+    </ion-row>
+  </ion-grid>
+  </ion-content>
+</ion-menu>
+
+<ion-header [translucent]="true">
+  <ion-toolbar>    
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+     <b class="coolvetica"> Lixeira </b>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" id="main-content">
+  <ion-header collapse="condense">
+  </ion-header>
+</ion-content>

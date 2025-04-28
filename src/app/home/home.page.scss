@@ -25,3 +25,70 @@
 #container a {
   text-decoration: none;
 }
+
+.minimal
+  {
+    font-family: 'Minimal', 'Courier New', Courier, monospace ,sans-serif;
+  }
+  
+  .Comfortaa-Light{
+    font-family: 'Comfortaa-Light', 'Courier New', Courier, monospace ,sans-serif;
+  }
+  
+  .coolvetica
+  {
+    font-family: 'Coolvetica', 'Courier New', Courier, monospace ,sans-serif;
+  }
+  
+  .gajkley
+  {
+    font-family: 'Gajkley', 'Courier New', Courier, monospace ,sans-serif;
+  }
+
+
+.backgroundMenu
+{
+  --background: url("../../assets/bgImages/LogoOnly.png") no-repeat 0/100% 50%;
+
+}
+
+
+.backgroundMain {  
+    --background:  url("../../assets/bgImages/KijetesantakaluCinzaPintorFofo.png") no-repeat center !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+#img-add{
+  //background-color: blue;
+  height: 100px;
+  width: 175px;
+  
+}
+
+.item-menu
+{
+  --background: rgba(128, 128, 128, 0);
+  padding-bottom: 10px;
+}
+
+.item-selected
+{
+  --border-color: gray;
+  --border-width: 2px;
+  --border-radius: 10px;
+     
+  ion-icon
+  {
+      filter:contrast(200%)
+  }
+}
+
+#icon-add
+{
+  font-size: 60px;
+  text-align: center;
+  
+  
+}

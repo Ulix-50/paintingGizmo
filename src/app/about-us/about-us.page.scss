@@ -1,0 +1,71 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  .minimal
+    {
+      font-family: 'Minimal', 'Courier New', Courier, monospace ,sans-serif;
+    }
+    
+    .Comfortaa-Light{
+      font-family: 'Comfortaa-Light', 'Courier New', Courier, monospace ,sans-serif;
+    }
+    
+    .coolvetica
+    {
+      font-family: 'Coolvetica', 'Courier New', Courier, monospace ,sans-serif;
+    }
+    
+    .gajkley
+    {
+      font-family: 'Gajkley', 'Courier New', Courier, monospace ,sans-serif;
+    }
+  
+  
+  .backgroundMenu
+  {
+    --background: url("../../assets/bgImages/LogoOnly.png") no-repeat 0/100% 50%;
+  
+  }
+  
+  .item-menu
+  {
+    --background: rgba(128, 128, 128, 0);
+    padding-bottom: 10px;
+  }
+  
+  .item-selected
+  {
+    --border-color: gray;
+    --border-width: 2px;
+    --border-radius: 10px;
+       
+    ion-icon
+    {
+        filter: contrast(200%);
+    }
+  }

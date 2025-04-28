@@ -1,5 +1,7 @@
 {
-  "name": "paintingGizmo",
-  "integrations": {},
+  "name": "prj-Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
